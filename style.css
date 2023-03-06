@@ -1,0 +1,33 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+.content{
+    width: 100%;
+    float: left;
+    color: #0c0b0f;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+}
+.image {
+    width: 460px;
+    height: 250px;
+    cursor: pointer;
+
+}
+.image:hover{
+    background-color: bisque;
+}
